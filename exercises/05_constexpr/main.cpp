@@ -17,7 +17,7 @@ int main(int argc, char **argv) {
     std::cout << "fibonacci(20) = " << FIB20 << std::endl;
 
     // TODO: 观察错误信息，修改一处，使代码编译运行
-    constexpr auto ANS_N = 100;//
+    constexpr auto ANS_N = 10;//
     /*constexpr*/const auto ANS = fibonacci(ANS_N);//必须在编译时确定ANS，去掉constexpr编译成功或者改为const（运行时const）
     std::cout << "fibonacci(" << ANS_N << ") = " << ANS << std::endl;
 
